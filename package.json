@@ -4,11 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port=3000 --host=0.0.0.0",
-    "build": "vite build",
+    "dev": "concurrently \"vite --port=3000 --host=0.0.0.0\" \"cd server && npm run dev\"",
+    "dev:front": "vite --port=3000 --host=0.0.0.0",
+    "dev:back": "cd server && npm run dev",
+    "build": "vite build && cd server && npm run build",
+    "start": "NODE_ENV=production cd server && npm start",
     "preview": "vite preview",
-    "clean": "rm -rf dist",
-    "lint": "tsc --noEmit"
+    "clean": "rm -rf dist server/dist",
+    "lint": "tsc --noEmit",
+    "db:migrate": "cd server && npm run db:migrate",
+    "db:seed": "cd server && npm run db:seed",
+    "db:studio": "cd server && npm run db:studio"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
@@ -29,6 +35,7 @@
     "@types/express": "^4.17.21",
     "@types/node": "^22.14.0",
     "autoprefixer": "^10.4.21",
+    "concurrently": "^9.1.2",
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",
