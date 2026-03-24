@@ -1,0 +1,81 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  role      Role     @default(ADMIN)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Publication {
+  id          String            @id @default(cuid())
+  title       String
+  type        String
+  readTime    String
+  content     String?
+  coverImage  String?
+  status      PublicationStatus @default(DRAFT)
+  views       Int               @default(0)
+  datePublished DateTime?
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+}
+
+model Testimonial {
+  id        String             @id @default(cuid())
+  author    String
+  role      String
+  content   String
+  avatar    String?
+  city      String?
+  status    TestimonialStatus  @default(PENDING)
+  createdAt DateTime           @default(now())
+  updatedAt DateTime           @updatedAt
+}
+
+model Purchase {
+  id        String         @id @default(cuid())
+  email     String
+  amount    Float          @default(20.0)
+  currency  String         @default("USD")
+  status    PurchaseStatus @default(COMPLETED)
+  createdAt DateTime       @default(now())
+}
+
+model Stat {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  value     Int      @default(0)
+  updatedAt DateTime @updatedAt
+}
+
+enum Role {
+  ADMIN
+}
+
+enum PublicationStatus {
+  PUBLISHED
+  DRAFT
+  IN_PROGRESS
+}
+
+enum TestimonialStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+enum PurchaseStatus {
+  COMPLETED
+  REFUNDED
+  PENDING
+}
