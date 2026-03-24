@@ -6,13 +6,13 @@ export function EbookCTA() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-16 relative z-10">
         <div className="md:w-1/2">
           <h2 className="text-5xl md:text-7xl font-headline font-medium text-white leading-tight mb-8">
-            Prêt à éveiller votre esprit ?
+            Prêt à agir avec excitation et détachement ?
           </h2>
           <p className="text-white font-body text-lg mb-12 max-w-md">
-            Rejoignez des milliers de grands esprits qui ont choisi la clarté et l'action pour transformer leur quotidien.
+            Rejoignez des milliers de grands esprits qui ont choisi la clarté, l'action et la constance pour transformer leur quotidien. Stylo en main.
           </p>
           <button className="bg-[#2f0800] text-white px-10 py-5 rounded-md font-bold font-label text-[10px] tracking-widest uppercase hover:bg-opacity-90 transition-all shadow-2xl shadow-black/20">
-            Télécharger le petit livre
+            Obtenir le Livre · 20$
           </button>
         </div>
         

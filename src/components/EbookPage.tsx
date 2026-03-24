@@ -8,12 +8,12 @@ export function EbookPage() {
         {/* Hero Section */}
         <section className="max-w-7xl mx-auto px-8 py-20 lg:py-32 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-7 space-y-8">
-            <span className="inline-block px-4 py-1.5 bg-[#c8e4f0] text-[#4d6670] text-xs font-label uppercase tracking-widest rounded-full">Nouvelle Édition 2024</span>
+            <span className="inline-block px-4 py-1.5 bg-[#c8e4f0] text-[#4d6670] text-xs font-label uppercase tracking-widest rounded-full">15 chapitres. Un seul système.</span>
             <h1 className="text-6xl lg:text-8xl font-headline italic leading-[1.1] tracking-tighter text-[#00162a]">
-              L'Art de la <br/><span className="not-italic text-[#2e4964]">Pensée Moderne.</span>
+              Agissez sans relâche <br/><span className="not-italic text-[#2e4964]">avec excitation.</span>
             </h1>
             <p className="text-xl lg:text-2xl font-body text-[#44474c] max-w-xl leading-relaxed">
-              Un guide complet pour élever votre pensée, de simple contenu à une monographie soignée. Maîtrisez l'autorité éditoriale.
+              Un système concret pour clarifier vos objectifs, progresser chaque jour et surmonter les échecs. Pour les grands esprits qui refusent de se laisser bloquer.
             </p>
             <div className="pt-4 flex flex-col sm:flex-row gap-4">
               <div className="flex-grow max-w-md">
@@ -61,27 +61,27 @@ export function EbookPage() {
           <div className="max-w-7xl mx-auto px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
               <div className="space-y-12">
-                <h2 className="text-4xl lg:text-5xl font-headline text-[#00162a]">Pourquoi lire ce petit livre ?</h2>
+                <h2 className="text-4xl lg:text-5xl font-headline text-[#00162a]">Ce qui vous bloque dans la vie</h2>
                 <div className="space-y-10">
                   <div className="flex gap-6">
                     <Sparkles className="text-4xl text-[#f95e27] shrink-0" size={40} />
                     <div>
-                      <h3 className="text-xl font-headline font-bold text-[#00162a] mb-2">Autorité Éditoriale</h3>
-                      <p className="font-body text-[#44474c] leading-relaxed">Allez au-delà du simple blogging. Apprenez à structurer vos idées avec le sérieux d'un éditeur traditionnel.</p>
+                      <h3 className="text-xl font-headline font-bold text-[#00162a] mb-2">Le manque de clarté</h3>
+                      <p className="font-body text-[#44474c] leading-relaxed">Vos objectifs sont flous ou mal définis. Ce livre vous aide à évaluer votre vie sur cinq cercles distincts pour identifier précisément sur quoi travailler.</p>
                     </div>
                   </div>
                   <div className="flex gap-6">
                     <Layers className="text-4xl text-[#f95e27] shrink-0" size={40} />
                     <div>
-                      <h3 className="text-xl font-headline font-bold text-[#00162a] mb-2">Mises en page Architecturales</h3>
-                      <p className="font-body text-[#44474c] leading-relaxed">Comprendre le rythme visuel et la psychologie de l'espace vide dans les expériences de lecture numérique haut de gamme.</p>
+                      <h3 className="text-xl font-headline font-bold text-[#00162a] mb-2">Le manque d'action</h3>
+                      <p className="font-body text-[#44474c] leading-relaxed">Les bonnes idées ne suffisent pas. Ce livre vous donne un système pour agir chaque jour avec enthousiasme, même sur les tâches que vous remettez à plus tard.</p>
                     </div>
                   </div>
                   <div className="flex gap-6">
                     <PenTool className="text-4xl text-[#f95e27] shrink-0" size={40} />
                     <div>
-                      <h3 className="text-xl font-headline font-bold text-[#00162a] mb-2">La Curation avant le Contenu</h3>
-                      <p className="font-body text-[#44474c] leading-relaxed">Arrêtez de produire du bruit. Maîtrisez l'art du récit sélectif qui instaure une confiance durable avec votre audience.</p>
+                      <h3 className="text-xl font-headline font-bold text-[#00162a] mb-2">Le manque de constance</h3>
+                      <p className="font-body text-[#44474c] leading-relaxed">L'intensité ne bat jamais la régularité. Ce livre vous apprend à faire des bilans quotidiens pour rester aligné avec vos ambitions à long terme.</p>
                     </div>
                   </div>
                 </div>
@@ -103,12 +103,12 @@ export function EbookPage() {
         <section className="max-w-7xl mx-auto px-8 py-32">
           <div className="bg-[#0d2b45] rounded-3xl px-12 py-20 relative overflow-visible flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-2/3 space-y-6">
-              <h2 className="text-4xl lg:text-6xl font-headline text-white font-light">La Masterclass du <br/><span className="italic font-bold">Petit Livre Moderne.</span></h2>
+              <h2 className="text-4xl lg:text-6xl font-headline text-white font-light">Le système <br/><span className="italic font-bold">Clarifier. Planifier. Ajuster.</span></h2>
               <p className="text-[#7993b2] text-lg lg:text-xl font-body max-w-xl">
-                Inclut 15 modèles personnalisés, une immersion de 200 pages dans la stratégie éditoriale, et l'accès à notre communauté privée de curateurs.
+                15 chapitres. Des exercices concrets à faire stylo en main. Un outil de bilan quotidien. Tout ce qu'il faut pour progresser de façon mesurable chaque jour de votre vie.
               </p>
               <button className="mt-4 bg-[#2f0800] text-white px-12 py-4 rounded-md font-body font-bold hover:scale-105 transition-transform">
-                Télécharger pour 49€
+                Obtenir le Livre · 20$
               </button>
             </div>
             <div className="lg:w-1/3 lg:absolute lg:-right-12 lg:-bottom-12 transform lg:rotate-12 w-64 lg:w-96">
@@ -142,11 +142,11 @@ export function EbookPage() {
               {/* Large Feature */}
               <div className="md:col-span-2 md:row-span-2 bg-white p-12 flex flex-col justify-end space-y-4 rounded-xl border border-[#c4c6cd]/10 shadow-sm">
                 <span className="text-[#48626c] font-label text-sm uppercase tracking-widest">Partie 01</span>
-                <h3 className="text-3xl font-headline text-[#00162a]">Fondations de l'Intention</h3>
-                <p className="font-body text-[#44474c] leading-relaxed">Établir le cadre psychologique nécessaire pour écrire pour une audience qui valorise la profondeur plutôt que la vitesse.</p>
-                <img 
-                  className="mt-8 rounded-lg h-48 object-cover" 
-                  alt="Sculpture géométrique minimaliste" 
+                <h3 className="text-3xl font-headline text-[#00162a]">Une nouvelle mentalité</h3>
+                <p className="font-body text-[#44474c] leading-relaxed">Le cadre philosophique qui change tout : agir avec enthousiasme, se détacher des résultats, reprendre le contrôle de ce qui dépend vraiment de vous.</p>
+                <img
+                  className="mt-8 rounded-lg h-48 object-cover"
+                  alt="Espace de réflexion"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuaQB-Dthbb58VrX_C_vxjEd1R0bH0NVilfHfyGTgCcQzdDwqeozevj-dfajJ05dqxMivZrsuo60_rLi-jill-qFpq6xXH0nSQPUhHTfhDbvouOzl2fGS1yqy-mZlUnkEUly_rCvxdVf4ZkhN-pEyCalKpmd7Mt2A7KrGfEJax_LU30NmuUIRj5d3S7Wi3T1BTKu0QuBjDNp2YulsUXlcqk0ukj0VVZUIAdBi6OTsi0rN4D09-jpMmBe2ZFF9c84rZTSLGKMgGIZQ"
                   referrerPolicy="no-referrer"
                 />
@@ -154,16 +154,18 @@ export function EbookPage() {
               {/* Small Features */}
               <div className="md:col-span-2 bg-[#c8e4f0] p-10 rounded-xl flex flex-col justify-center">
                 <span className="text-[#4d6670] font-label text-xs uppercase tracking-widest mb-2">Partie 02</span>
-                <h3 className="text-2xl font-headline text-[#021f27]">Hiérarchie Visuelle</h3>
-                <p className="font-body text-[#4d6670] mt-2">Maîtriser la typographie et l'espacement pour guider le lecteur à travers des récits complexes sans effort.</p>
+                <h3 className="text-2xl font-headline text-[#021f27]">Les 5 cercles de la vie</h3>
+                <p className="font-body text-[#4d6670] mt-2">Évaluez honnêtement votre vie : finances, vie professionnelle, vie personnelle, relations, spiritualité. Trouvez votre maillon faible.</p>
               </div>
               <div className="bg-[#ffdbd0] p-8 rounded-xl flex flex-col justify-between">
                 <span className="text-[#390b00] font-label text-xs uppercase tracking-widest">Partie 03</span>
-                <h3 className="text-xl font-headline text-[#390b00]">L'Édition du Curateur</h3>
+                <h3 className="text-xl font-headline text-[#390b00]">Clarifiez vos objectifs</h3>
+                <p className="font-body text-[#390b00]/70 text-sm mt-2">Un seul objectif par cercle. Formulé au présent. Atteignable maintenant.</p>
               </div>
               <div className="bg-[#d0e4ff] p-8 rounded-xl flex flex-col justify-between">
                 <span className="text-[#001d35] font-label text-xs uppercase tracking-widest">Partie 04</span>
-                <h3 className="text-xl font-headline text-[#001d35]">Monétiser la Confiance</h3>
+                <h3 className="text-xl font-headline text-[#001d35]">La constance</h3>
+                <p className="font-body text-[#001d35]/70 text-sm mt-2">Le bilan quotidien : l'habitude fondamentale des grands esprits.</p>
               </div>
             </div>
           </div>
@@ -172,7 +174,7 @@ export function EbookPage() {
         {/* Recent Monographs (Blog Posts) */}
         <section className="max-w-7xl mx-auto px-8 py-32 border-t border-[#c4c6cd]/20">
           <div className="flex justify-between items-end mb-16">
-            <h2 className="text-4xl font-headline text-[#00162a]">Monographies Récentes</h2>
+            <h2 className="text-4xl font-headline text-[#00162a]">Articles Récents</h2>
             <a className="text-[#48626c] font-label font-bold uppercase tracking-widest hover:text-[#00162a] transition-colors flex items-center gap-2" href="#">
               Tous les Articles <MoveRight size={20} />
             </a>
@@ -189,9 +191,9 @@ export function EbookPage() {
                 />
               </div>
               <div className="space-y-4">
-                <time className="text-xs font-label text-[#44474c] uppercase tracking-widest">12 Octobre 2024 — 8 Min de Lecture</time>
-                <h3 className="text-2xl font-headline text-[#00162a] group-hover:text-[#2f0800] transition-colors">Le Silence entre les Mots : Une Étude sur l'Espacement</h3>
-                <p className="font-body text-[#44474c] line-clamp-2">Pourquoi l'espace blanc est l'élément le plus critique des publications numériques à haute conversion.</p>
+                <time className="text-xs font-label text-[#44474c] uppercase tracking-widest">12 Octobre 2024 · 8 Min de Lecture</time>
+                <h3 className="text-2xl font-headline text-[#00162a] group-hover:text-[#2f0800] transition-colors">Pourquoi l'inquiétude est toujours une mauvaise attitude</h3>
+                <p className="font-body text-[#44474c] line-clamp-2">Votre inquiétude ne résout rien. Elle consume l'énergie que vous pourriez utiliser pour agir. Voici comment en sortir.</p>
               </div>
             </article>
             {/* Article 2 */}
@@ -205,9 +207,9 @@ export function EbookPage() {
                 />
               </div>
               <div className="space-y-4">
-                <time className="text-xs font-label text-[#44474c] uppercase tracking-widest">05 Octobre 2024 — 12 Min de Lecture</time>
-                <h3 className="text-2xl font-headline text-[#00162a] group-hover:text-[#2f0800] transition-colors">Intégrité Structurelle dans le Récit Numérique</h3>
-                <p className="font-body text-[#44474c] line-clamp-2">Comment architecturer vos articles de blog comme une publication de luxe pour un impact maximum.</p>
+                <time className="text-xs font-label text-[#44474c] uppercase tracking-widest">05 Octobre 2024 · 12 Min de Lecture</time>
+                <h3 className="text-2xl font-headline text-[#00162a] group-hover:text-[#2f0800] transition-colors">Les 5 cercles de la vie : quel est votre maillon faible ?</h3>
+                <p className="font-body text-[#44474c] line-clamp-2">La plupart des gens n'ont que des objectifs financiers. Les grands esprits s'améliorent dans tous les cercles de leur vie. Faites le diagnostic.</p>
               </div>
             </article>
             {/* Article 3 */}
@@ -221,9 +223,9 @@ export function EbookPage() {
                 />
               </div>
               <div className="space-y-4">
-                <time className="text-xs font-label text-[#44474c] uppercase tracking-widest">28 Septembre 2024 — 6 Min de Lecture</time>
-                <h3 className="text-2xl font-headline text-[#00162a] group-hover:text-[#2f0800] transition-colors">Le Dilemme du Curateur : Ce qu'il faut laisser de côté</h3>
-                <p className="font-body text-[#44474c] line-clamp-2">La philosophie de la soustraction et pourquoi moins est toujours plus dans la curation professionnelle.</p>
+                <time className="text-xs font-label text-[#44474c] uppercase tracking-widest">28 Septembre 2024 · 6 Min de Lecture</time>
+                <h3 className="text-2xl font-headline text-[#00162a] group-hover:text-[#2f0800] transition-colors">Comment formuler un objectif qui vous pousse à agir</h3>
+                <p className="font-body text-[#44474c] line-clamp-2">Un objectif vague est un objectif mort. Voici la méthode pour formuler des intentions claires qui déclenchent l'action immédiatement.</p>
               </div>
             </article>
           </div>

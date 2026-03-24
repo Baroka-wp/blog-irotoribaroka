@@ -5,32 +5,32 @@ import { Testimonial } from '@/src/types';
 const WALL_TESTIMONIALS: Testimonial[] = [
   {
     id: '1',
-    author: 'Helena St. James',
-    role: 'Directrice Créative',
-    content: 'Le cadre "Un Petit Livre pour les Grands Esprits" n\'a pas seulement changé ma routine ; il a redéfini toute ma relation avec l\'action. La profondeur des conseils est inégalée.',
-    avatar: 'https://picsum.photos/seed/helena/200/200'
+    author: 'Kofi Mensah',
+    role: 'Entrepreneur, Accra',
+    content: 'Le concept de sphère d\'influence a changé ma gestion du stress. Je ne m\'inquiète plus de ce qui ne dépend pas de moi. Je me concentre sur ce que je contrôle, et j\'agis.',
+    avatar: 'https://picsum.photos/seed/kofi/200/200'
   },
   {
     id: '2',
-    author: 'Julian Thorne',
-    role: 'Journaliste Indépendant',
-    content: 'La transition de l\'inquiétude vers la responsabilité a été immédiate. C\'est le nouveau standard de l\'excellence personnelle.',
-    avatar: 'https://picsum.photos/seed/julian/200/200',
+    author: 'Fatou Diallo',
+    role: 'Manager, Dakar',
+    content: 'La méthode Clarifier-Planifier-Ajuster est devenue mon outil quotidien. En un mois, j\'ai un objectif clair pour chacun des cinq cercles de ma vie. Je n\'avais jamais eu autant de clarté.',
+    avatar: 'https://picsum.photos/seed/fatou/200/200',
     rating: 5
   },
   {
     id: '3',
-    author: 'Marcus Vane',
-    role: 'Stratège Média',
-    content: 'Rarement on trouve une ressource qui respecte autant l\'intelligence du lecteur. Un chef-d\'œuvre de clarté.',
-    avatar: 'https://picsum.photos/seed/marcus/200/200'
+    author: 'Thierry Nkurunziza',
+    role: 'Ingénieur, Abidjan',
+    content: 'Ce livre respecte l\'intelligence du lecteur. Pas de promesses vides. Un système concret, applicable dès la première lecture, stylo en main.',
+    avatar: 'https://picsum.photos/seed/thierry/200/200'
   },
   {
     id: '4',
-    author: 'Elara Vance',
-    role: 'Fondatrice, The Daily Digest',
-    content: 'Je suis passée de la confusion à une vision claire à 10 ans en un mois. Le ROI sur ce livre a été réalisé dès la première semaine.',
-    avatar: 'https://picsum.photos/seed/elara/200/200'
+    author: 'Aïcha Traoré',
+    role: 'Enseignante, Bamako',
+    content: 'Je suis passée de la confusion à une vision claire sur 10 ans en moins d\'une semaine. Le chapitre sur l\'ambition m\'a forcée à me poser les vraies questions. Enfin.',
+    avatar: 'https://picsum.photos/seed/aicha/200/200'
   }
 ];
 
@@ -40,7 +40,7 @@ export function WallOfLove() {
       <section className="max-w-7xl mx-auto px-8 mb-20 text-center">
         <h1 className="text-6xl md:text-8xl font-medium tracking-tight font-headline text-primary mb-6">Témoignages : Mur d'Amour</h1>
         <p className="max-w-2xl mx-auto text-lg text-on-surface-variant font-body leading-relaxed">
-          Réflexions de notre communauté de penseurs et d'esprits ambitieux qui ont transformé leur quotidien grâce à nos principes d'excellence.
+          Des grands esprits qui ont choisi la clarté, l'action et la constance. Voici ce qu'ils en disent.
         </p>
       </section>
 
@@ -118,7 +118,7 @@ export function WallOfLove() {
           <div className="absolute -top-24 -right-24 w-64 h-64 bg-primary-fixed-dim opacity-10 rounded-full blur-3xl"></div>
           <div className="relative z-10 text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-medium font-headline text-primary mb-4">Partagez Votre Parcours</h2>
-            <p className="text-on-surface-variant font-body max-w-lg mx-auto">Votre expérience nous aide à évoluer et inspire d'autres esprits à trouver leur propre voie vers l'excellence.</p>
+            <p className="text-on-surface-variant font-body max-w-lg mx-auto">Comment ce livre a-t-il changé votre quotidien ? Votre témoignage peut inspirer d'autres grands esprits à passer à l'action.</p>
           </div>
           <form className="space-y-10 relative z-10" onSubmit={(e) => e.preventDefault()}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">

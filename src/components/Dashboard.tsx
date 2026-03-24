@@ -29,7 +29,7 @@ const PUBLICATIONS: Publication[] = [
     title: 'Excitation et Détachement',
     type: 'Philosophie d\'Action',
     readTime: '12 min read',
-    datePublished: '—',
+    datePublished: 'En cours',
     views: '0',
     status: 'En cours de rédaction',
     coverImage: ''
